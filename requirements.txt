@@ -1,0 +1,21 @@
+# -- Web framework --
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# -- RAG core --
+docling>=2.5.0
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.3.0
+langchain-huggingface>=0.1.0
+faiss-cpu>=1.8.0
+sentence-transformers>=3.0.0
+openai>=1.0.0
+
+# -- Config --
+pydantic-settings>=2.5.0
+python-dotenv>=1.0.1
+
+# -- Security (added in Phase 3, but include from start) --
+slowapi>=0.1.9
